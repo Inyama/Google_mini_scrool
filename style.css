@@ -1,0 +1,132 @@
+/* *, *::before, ::after{
+    padding: 0;
+} */
+body{
+    margin-top:70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:poppins;
+}
+
+p{
+    font-family:Roboto;
+}
+
+.navbar-default{
+    background: #fff;
+    border: 0;
+    font-family: poppins;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+#showcase h1{
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+#showcase img{
+    width:90%;
+    margin-left: -100px;
+    
+}
+
+#showcase .showcase-right{
+    margin-top:90px;
+}
+
+#testimonial{
+    background: rgb(187, 186, 186);
+    padding: 30px 0 30px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#testimonial p{
+    font-size: 32px;
+    font-family: 'josefin sans';
+    color:#000;
+}
+
+#testimonial p.customer{
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+#info1{
+    margin-top:90px;
+    margin-bottom: 50px;
+}
+
+#info2{
+    margin: 20px 0 60px 0;
+}
+
+#contact{
+    /* background:url(../img/apple.jpg); */
+    background-repeat: no-repeat;
+    background-position:cover;
+    position: relative;
+    padding: 40px;
+    color: #fff;
+    border-top: #333 7px solid;
+    border-bottom: #333 7px solid;
+}
+
+.image{
+    margin-top: -40px;
+    margin-left: -40px;
+    position: absolute;
+}
+.button{
+    border: 2px solid rgb(160, 152, 152);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.button:hover {
+    background: grey;
+    color: white;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.submit{
+    border: 1px solid grey;
+    background:white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background: grey;
+    color: white;
+}
+
+.column{ 
+    background: #e2e2e2;
+    border-radius: 14px;
+    height: 98px;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 4px;
+    margin-right: 9px;
+    margin-left: -1px;
+}
+
+footer{
+    padding:30px;
+}
